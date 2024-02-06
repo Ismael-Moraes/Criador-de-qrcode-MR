@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Gerador de qr</title>
+</head>
+<body>
+    <div class="site">
+        <div class="topo">
+            <div class="logo">
+                <h1><i class="fa-solid fa-qrcode"></i></h1>
+                <br>
+                <h2>Gerador de QrCode MR</h2>
+            </div>
+            <div class="area">
+                <div class="conteudo">
+                    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+                    <strong>Escreva sua URL ou texto aqui <i class="fa-solid fa-arrow-down-long"></i></strong>
+                    <br>
+                    <input type="text" id="smile" placeholder="Digite aqui" autofocus>
+                    <br>
+                    <button onclick="gerarQRCode()">Gerar QrCode</button>
+                </div>
+            </div>
+        </div>
+        <div class="area-qr">
+            <div id="qrcode"></div>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/ismael.moraes_?igsh=MXRuamF1aDh1dGdlcg=="  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ismael-moraes-15790828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</body>
+
+    <!-- links icos font awesome-->
+    <script src="https://kit.fontawesome.com/487c61926c.js" crossorigin="anonymous"></script>
+    <!-- links icos font awesome-->
+
+    <script src="index.js"></script>
+</html>
